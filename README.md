@@ -5,8 +5,8 @@
  
 MRNA design is hard first because of the number of possibilities. The choice of the sequence is important as Literature and experiments have shown the importance of codon choices, especially on protein expression \cite{quax2015codon}. This property is very important in optimal drug design, allowing us to design and control the level of expression of drug in one's body. It can be "measured" using Mean Ribosome Load which is equivalent to the number of ribosomes that bind onto an mRNA. 5'UTRs, which mark the start of an mRNA (cf. figure 1), play a major role in protein expression. In 2019, the Seelig Lab in collaboration with Moderna Therapeutics have predicted the mean ribosome load (MRL) for a given 5'UTR \cite{sample2019human} using a Convolutional Neural Network model called  Optimus 5'. In this project, we reproduce their approach (CNNs) and predict MRL using other deep learning techniques (Lstms), classification algorithms (Multinomial Bayes, Random Forest) and an NLP approach (Transformers) to explore other ways to predict MRL and possibly improve on the accuracy. The input to our algorithms is a \textbf{5' UTR sequence} which is an ordered string of nucleotides (A, T, G, C) and the output to our algorithms is the \textbf{Mean Ribosome Load (MRL)} which is a float.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width = \linewidth]{template/Screen Shot 2022-12-07 at 6.20.55 PM.png}
-    \caption{Central Dogma \cite{}}
-\end{figure}
+<p align="center">
+<img src="https://github.com/marie-huynh/5_PRIME_UTRS/blob/main/Figures/Central%20Dogma.png" width="500" height="500">
+</p>
+
+Figures/Central Dogma.png
