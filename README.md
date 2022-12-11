@@ -10,3 +10,9 @@ MRNA design is hard first because of the number of possibilities. The choice of 
 <p align="center">
 <img src="https://github.com/marie-huynh/5_PRIME_UTRS/blob/main/Figures/Central%20Dogma.png" width="895.5" height="363">
 </p>
+
+<p align="center">
+Figure 1: Central Dogma
+</p>
+
+
